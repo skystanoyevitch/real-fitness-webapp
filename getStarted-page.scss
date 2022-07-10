@@ -101,18 +101,72 @@ html {
 
 	.section-text {
 		text-align: center;
+        margin: 150px 0px 150px 0px;
 
 		h2 {
 			color: $primary-color;
-            font-size: $sub-heading;
+			font-size: $sub-heading;
+            margin: 0px;
 		}
 
-        h1 {
-            font-size: $heading;
-        }
+		h1 {
+			font-size: $heading;
+            margin: 0px;
+		}
 
-        p {
-            font-size: 1.3em;
-        }
+		p {
+			font-size: 1.3em;
+		}
+	}
+
+	.outter-container {
+		background-color: #F3F2F2EE;
+        margin-bottom: 150px;
+
+		.inner-container {
+			padding: 4em;
+
+			h2 {
+				text-align: center;
+				color: $primary-color;
+				font-size: $heading;
+				padding-bottom: 70px;
+			}
+
+			.icons-outter-container {
+				display: flex;
+				justify-content: space-evenly;
+				text-align: center;
+				color: $secondary-color;
+
+				i {
+					font-size: 3.8em;
+				}
+
+				h4 {
+					font-size: 1.5em;
+				}
+			}
+		}
+	}
+
+	.title {
+		color: $primary-color;
+		font-size: $sub-heading;
+		font-weight: 600;
+	}
+
+	.sub-title {
+		font-size: 4em;
+		margin: 0px;
+		width: 30%;
+	}
+
+	.section-footer {
+		margin: 50px 0px 50px 0px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 30%;
 	}
 }
